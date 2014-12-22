@@ -1,0 +1,5 @@
+{
+  "GroupName": "hoge_group",
+  "PolicyName": "AdministratorFugaFullAccess",
+  "PolicyPath": "file://~/.aws/AdministratorFugaFullAccess.json"
+}
