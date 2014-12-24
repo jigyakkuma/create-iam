@@ -160,9 +160,6 @@ func cmdAccountAlias(account string) string {
 	return "https://" + a[1:len(a) - 1] + ".signin.aws.amazon.com/console"
 }
 
-func cmdGroupPolicy(account string, user string, policy []string) {
-}
-
 func cmdCreateUser(account string, user string) interface{} {
 	execCommand :=	exec.Command("aws", "iam", "create-user", "--user-name", user, "--profile", account)
 	result, _ := cmdRun(execCommand)
